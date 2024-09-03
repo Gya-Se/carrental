@@ -23,7 +23,7 @@ export default function Team() {
             </h1>
             <p className="text-stone-200 text-center">
               Emily ensures a smooth customer experience with her 8 years of
-              industry expertise and friendly approach.
+              industry expertise and friendly approach and design.
             </p>
           </div>
           <div className="flex flex-col px-5 py-8 items-center">
