@@ -12,8 +12,8 @@ export default function Jumbo() {
             </h1>
             <p className="text-lg md:text-xl max-w-2xl">
               Discover our wide range of vehicles to suit every need and budget.
-              Whether you're exploring the city or heading out on a road trip,
-              we've got you covered with the best rates and flexible options.
+              Whether you are exploring the city or heading out on a road trip,
+              we have got you covered with the best rates and flexible options.
             </p>
             <form className="w-full max-w-md mt-4 flex flex-col md:flex-row items-center gap-4">
               <input
