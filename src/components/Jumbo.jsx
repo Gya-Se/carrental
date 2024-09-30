@@ -1,4 +1,15 @@
+'use client'
+import {useState} from 'react'
+
 export default function Jumbo() {
+
+  const [search, setSearch] = useState ('')
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Search: ", search)
+  }
+
   return (
     <>
       <section className="relative">
@@ -15,17 +26,15 @@ export default function Jumbo() {
               Whether you are exploring the city or heading out on a road trip,
               we have got you covered with the best rates and flexible options.
             </p>
-            <form className="w-full max-w-md mt-4 flex flex-col md:flex-row items-center gap-4">
+            <form onSubmit={handleSubmit} className="w-full max-w-md mt-4 flex flex-col md:flex-row items-center gap-4">
               <input
                 type="text"
-                placeholder="Enter location"
+                placeholder="Enter car name"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
                 className="w-full px-4 py-2 rounded-md text-black"
               />
-              <input
-                type="date"
-                className="w-full px-4 py-2 rounded-md text-black"
-              />
-              <button className="w-full md:w-auto px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition">
+              <button type="submit" className="w-full md:w-auto px-6 py-2 bg-black text-white rounded-md hover:bg-gray-800 transition">
                 Search
               </button>
             </form>

@@ -11,7 +11,7 @@ export default function Testimonials() {
           <div className="flex flex-col border p-5 rounded-md hover:border-orange-600">
             <div className="relative flex justify-center mb-3">
               <Image
-                src={"/portrait.webp"}
+                src={"/image.png"}
                 alt=""
                 width={90}
                 height={90}
@@ -52,7 +52,7 @@ export default function Testimonials() {
           <div className="flex flex-col border rounded-md p-5 hover:border-orange-600">
             <div className="relative flex justify-center mb-3">
               <Image
-                src={"/portrait.webp"}
+                src={"/image1.png"}
                 alt=""
                 width={90}
                 height={90}
