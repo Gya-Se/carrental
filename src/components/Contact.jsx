@@ -13,24 +13,24 @@ export default function Contact() {
             <MdOutlineContactSupport size={30} className="text-orange-500" />
             <div className="flex flex-col">
               <p className="mb-2 font-bold">Technical support</p>
-              <p className="text-neutral-500 ">support@example.com</p>
-              <p className="text-neutral-500 ">+1 234-567-89</p>
+              <p className="text-neutral-500 ">gctuproject2024@gmail.com</p>
+              <p className="text-neutral-500 ">+233 559 452-818</p>
             </div>
           </div>
           <div className="flex items-center space-x-3">
             <MdOutlineSell size={30} className="text-orange-500" />
             <div className="flex flex-col">
               <p className="mb-2 font-bold ">Sales questions</p>
-              <p className="text-neutral-500 ">sales@example.com</p>
-              <p className="text-neutral-500 ">+1 234-567-89</p>
+              <p className="text-neutral-500 ">gctuproject2024@gmail.com</p>
+              <p className="text-neutral-500 ">+233 559 452-818</p>
             </div>
           </div>
           <div className="flex items-center space-x-3">
             <LuBug size={30} className="text-orange-500" />
             <div className="flex flex-col">
               <p className="mb-2 font-bold">Bug report</p>
-              <p className="text-neutral-500 ">bugs@example.com</p>
-              <p className="text-neutral-500">+1 234-567-89</p>
+              <p className="text-neutral-500 ">gctuproject2024@gmail.com</p>
+              <p className="text-neutral-500">+233 559 452-818</p>
             </div>
           </div>
         </div>
